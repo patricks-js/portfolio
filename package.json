@@ -1,12 +1,12 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Olá, eu sou Lucas Patrick, Dev Front-End e Design. Venha me conhecer melhor.",
   "main": "index.js",
   "scripts": {
     "start": "sass --watch ./src/sass/style.scss:./src/css/style.css"
   },
   "keywords": [],
-  "author": "",
+  "author": "Lucas Patrick",
   "license": "ISC"
 }
