@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "sass --watch ./src/sass/style.scss:./src/css/style.css",
-    "build": "vercel build"
+    "start": "sass --watch ./src/sass/style.scss:./src/css/style.css"
   },
   "keywords": [],
   "author": "",
