@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "sass --watch ./src/sass/style.scss:./src/css/style.css"
+    "start": "sass --watch ./src/sass/style.scss:./src/css/style.css",
+    "build": "vercel build"
   },
   "keywords": [],
   "author": "",
