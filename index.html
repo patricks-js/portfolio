@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patricks JS</title>
+    <link
+      rel="shortcut icon"
+      href="./src/assets/logoico.ico"
+      type="image/x-icon"
+    />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- SWIPER -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <script
+      src="https://unpkg.com/swiper@8/swiper-bundle.min.js"
+      defer
+    ></script>
+    <!-- Scrollreveal -->
+    <script
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+      defer
+    ></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <!-- main JS -->
+    <script src="/src/main.js" defer></script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <a href="#home" class="logo">
+          <img src="./src/assets/logo.svg" alt="Logo do meu site" />
+        </a>
+        <nav id="nav">
+          <ul class="menu">
+            <li><a href="#header" class="active">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projetos</a></li>
+          </ul>
+        </nav>
+        <a
+          class="button"
+          target="_blank"
+          href="https://api.whatsapp.com/send?phone=+558197866395&text=Olá, gostei do seu site"
+          >Contato</a
+        >
+        <div class="menu-bar">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+      </div>
+    </header>
+    <main id="main">
+      <section class="section" id="home">
+        <div class="container container__section1">
+          <div class="description">
+            <h2>
+              Welcome to <span>my portfolio</span><br />Eu sou
+              <span>Lucas Patrick</span>
+            </h2>
+            <h1 class="title">Front-End Developer <span>&</span> Designer</h1>
+            <p class="subtitle">
+              Eu projeto e codifico coisas lindamente simples e amo o que faço.
+            </p>
+            <div class="avatar">
+              <img
+                src="https://github.com/patricks-js.png"
+                alt="Imagem do meu perfil"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div class="info-job">
+            <div class="card card1">
+              <img
+                src="./src/assets/emblem.svg"
+                alt="Emblema de experiência"
+                class="emblem"
+              />
+              <div class="description__card">
+                <h3>2+</h3>
+                <span>Anos de experiência</span>
+              </div>
+              &gt;
+            </div>
+            <div class="card card2">
+              <img
+                src="./src/assets/checkemblem.svg"
+                alt="Emblema de projetos completos"
+                class="emblem"
+              />
+              <div class="description__card">
+                <h3>5+</h3>
+                <span>Projetos completos</span>
+              </div>
+              &gt;
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="about">
+        <div class="container container__section2">
+          <div class="image">
+            <img
+              src="./src/assets/my-image.png"
+              alt="Imagem do criador do portfólio"
+              loading="lazy"
+            />
+          </div>
+          <div class="about-me">
+            <span class="topics">Quem sou eu</span>
+            <h2 class="title">Sobre mim</h2>
+            <p>
+              Sou um jovem com certa <strong>experiência</strong> na área de
+              <strong>TI e Programação</strong>, mais voltado para o
+              <strong>desenvolvimento web</strong> no
+              <strong>front-end</strong> na construção de
+              <strong>páginas responsivas e modernas</strong> de acordo com o
+              gosto do cliente. 100% dedicado ao trabalho que faço para faze-lo
+              bem feito dando o meu melhor para satisfazer a sua necessidade
+              como cliente.
+            </p>
+            <a
+              class="button"
+              target="_blank"
+              href="https://api.whatsapp.com/send?phone=+558197866395&text=Olá, gostei do seu site"
+              >Entre em contato</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="section" id="skills">
+        <div class="container container__section3">
+          <div class="skills__descriptions">
+            <div class="topics">Minhas habilidades</div>
+            <h2 class="title">Quais as minhas habilidades?</h2>
+            <p>
+              Estou sempre aumentando meu leque de conhecimento para estar
+              afiado nas <strong>tecnologias mais quentes</strong> do mercado
+              <strong>para dar o melhor ao cliente</strong>.
+            </p>
+            <a
+              class="button"
+              target="_blank"
+              href="https://api.whatsapp.com/send?phone=+558197866395&text=Olá, gostei do seu site"
+              >Entre em contato</a
+            >
+          </div>
+          <div class="skills">
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                alt="Icone HTML 5"
+              />
+              <span class="description__skill">HTML5</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                alt="Icone CSS"
+              />
+              <span class="description__skill">CSS</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                alt="Icone JavaScript"
+              />
+              <span class="description__skill">JavaScript</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                alt="Icone React"
+              />
+              <span class="description__skill">React</span>
+            </div>
+            <!-- <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                alt="Icone NodeJs"
+              />
+              <span class="description__skill">NodeJs</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                alt="Icone MongoDB"
+              />
+              <span class="description__skill">MongoDB</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+                alt="Icone PostgreSQL"
+              />
+              <span class="description__skill">PostgreSQL</span>
+            </div> -->
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+                alt="Icone SASS"
+              />
+              <span class="description__skill">Sass</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="projects">
+        <div class="container container__section4">
+          <div class="projects">
+            <div class="topics">Meus projetos</div>
+            <h2 class="title">Principais projetos</h2>
+            <span class="header-project-title">Web Development</span>
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="project">
+                    <img
+                      src="./src/assets/wireframe-beauty.png"
+                      alt=""
+                      class="responsive-design"
+                    />
+                    <div class="social-media">
+                      <a
+                        href="https://github.com/patricks-js/originSix"
+                        target="_blank"
+                      >
+                        <svg viewBox="0 0 128 128">
+                          <g fill="#f5f5f5">
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M64 5.103c-33.347 0-60.388 27.035-60.388 60.388 0 26.682 17.303 49.317 41.297 57.303 3.017.56 4.125-1.31 4.125-2.905 0-1.44-.056-6.197-.082-11.243-16.8 3.653-20.345-7.125-20.345-7.125-2.747-6.98-6.705-8.836-6.705-8.836-5.48-3.748.413-3.67.413-3.67 6.063.425 9.257 6.223 9.257 6.223 5.386 9.23 14.127 6.562 17.573 5.02.542-3.903 2.107-6.568 3.834-8.076-13.413-1.525-27.514-6.704-27.514-29.843 0-6.593 2.36-11.98 6.223-16.21-.628-1.52-2.695-7.662.584-15.98 0 0 5.07-1.623 16.61 6.19C53.7 35 58.867 34.327 64 34.304c5.13.023 10.3.694 15.127 2.033 11.526-7.813 16.59-6.19 16.59-6.19 3.287 8.317 1.22 14.46.593 15.98 3.872 4.23 6.215 9.617 6.215 16.21 0 23.194-14.127 28.3-27.574 29.796 2.167 1.874 4.097 5.55 4.097 11.183 0 8.08-.07 14.583-.07 16.572 0 1.607 1.088 3.49 4.148 2.897 23.98-7.994 41.263-30.622 41.263-57.294C124.388 32.14 97.35 5.104 64 5.104z"
+                            ></path>
+                            <path
+                              d="M26.484 91.806c-.133.3-.605.39-1.035.185-.44-.196-.685-.605-.543-.906.13-.31.603-.395 1.04-.188.44.197.69.61.537.91zm2.446 2.729c-.287.267-.85.143-1.232-.28-.396-.42-.47-.983-.177-1.254.298-.266.844-.14 1.24.28.394.426.472.984.17 1.255zM31.312 98.012c-.37.258-.976.017-1.35-.52-.37-.538-.37-1.183.01-1.44.373-.258.97-.025 1.35.507.368.545.368 1.19-.01 1.452zm3.261 3.361c-.33.365-1.036.267-1.552-.23-.527-.487-.674-1.18-.343-1.544.336-.366 1.045-.264 1.564.23.527.486.686 1.18.333 1.543zm4.5 1.951c-.147.473-.825.688-1.51.486-.683-.207-1.13-.76-.99-1.238.14-.477.823-.7 1.512-.485.683.206 1.13.756.988 1.237zm4.943.361c.017.498-.563.91-1.28.92-.723.017-1.308-.387-1.315-.877 0-.503.568-.91 1.29-.924.717-.013 1.306.387 1.306.88zm4.598-.782c.086.485-.413.984-1.126 1.117-.7.13-1.35-.172-1.44-.653-.086-.498.422-.997 1.122-1.126.714-.123 1.354.17 1.444.663zm0 0"
+                            ></path>
+                          </g>
+                        </svg>
+                        Repositório
+                      </a>
+                      <a
+                        href="https://beautysaloncenter.netlify.app"
+                        target="_blank"
+                      >
+                        <img src="./src/assets/free_icon_1.svg" alt="" />
+                        Demo
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="project">
+                    <img
+                      src="./src/assets/wireframe-doctor.png"
+                      alt=""
+                      class="responsive-design"
+                    />
+                    <div class="social-media">
+                      <a
+                        href="https://github.com/patricks-js/DoctorCare"
+                        target="_blank"
+                      >
+                        <svg viewBox="0 0 128 128">
+                          <g fill="#f5f5f5">
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M64 5.103c-33.347 0-60.388 27.035-60.388 60.388 0 26.682 17.303 49.317 41.297 57.303 3.017.56 4.125-1.31 4.125-2.905 0-1.44-.056-6.197-.082-11.243-16.8 3.653-20.345-7.125-20.345-7.125-2.747-6.98-6.705-8.836-6.705-8.836-5.48-3.748.413-3.67.413-3.67 6.063.425 9.257 6.223 9.257 6.223 5.386 9.23 14.127 6.562 17.573 5.02.542-3.903 2.107-6.568 3.834-8.076-13.413-1.525-27.514-6.704-27.514-29.843 0-6.593 2.36-11.98 6.223-16.21-.628-1.52-2.695-7.662.584-15.98 0 0 5.07-1.623 16.61 6.19C53.7 35 58.867 34.327 64 34.304c5.13.023 10.3.694 15.127 2.033 11.526-7.813 16.59-6.19 16.59-6.19 3.287 8.317 1.22 14.46.593 15.98 3.872 4.23 6.215 9.617 6.215 16.21 0 23.194-14.127 28.3-27.574 29.796 2.167 1.874 4.097 5.55 4.097 11.183 0 8.08-.07 14.583-.07 16.572 0 1.607 1.088 3.49 4.148 2.897 23.98-7.994 41.263-30.622 41.263-57.294C124.388 32.14 97.35 5.104 64 5.104z"
+                            ></path>
+                            <path
+                              d="M26.484 91.806c-.133.3-.605.39-1.035.185-.44-.196-.685-.605-.543-.906.13-.31.603-.395 1.04-.188.44.197.69.61.537.91zm2.446 2.729c-.287.267-.85.143-1.232-.28-.396-.42-.47-.983-.177-1.254.298-.266.844-.14 1.24.28.394.426.472.984.17 1.255zM31.312 98.012c-.37.258-.976.017-1.35-.52-.37-.538-.37-1.183.01-1.44.373-.258.97-.025 1.35.507.368.545.368 1.19-.01 1.452zm3.261 3.361c-.33.365-1.036.267-1.552-.23-.527-.487-.674-1.18-.343-1.544.336-.366 1.045-.264 1.564.23.527.486.686 1.18.333 1.543zm4.5 1.951c-.147.473-.825.688-1.51.486-.683-.207-1.13-.76-.99-1.238.14-.477.823-.7 1.512-.485.683.206 1.13.756.988 1.237zm4.943.361c.017.498-.563.91-1.28.92-.723.017-1.308-.387-1.315-.877 0-.503.568-.91 1.29-.924.717-.013 1.306.387 1.306.88zm4.598-.782c.086.485-.413.984-1.126 1.117-.7.13-1.35-.172-1.44-.653-.086-.498.422-.997 1.122-1.126.714-.123 1.354.17 1.444.663zm0 0"
+                            ></path>
+                          </g>
+                        </svg>
+                        Repositório
+                      </a>
+                      <a
+                        href="https://doctorhomecare.netlify.app"
+                        target="_blank"
+                      >
+                        <img src="./src/assets/free_icon_1.svg" alt="" />
+                        Demo
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="start-new-project container">
+        <h2>Start a project</h2>
+        <a
+          class="button"
+          target="_blank"
+          href="https://api.whatsapp.com/send?phone=+558197866395&text=Olá, gostei do seu site"
+          >Vamos lá!</a
+        >
+      </div>
+    </main>
+    <footer id="footer">
+      <div class="container">
+        <div class="footer__flex">
+          <div class="creator grid">
+            <h3>Lucas Patrick</h3>
+            <p>Front-End developer & designer</p>
+          </div>
+          <div class="links-nav grid">
+            <h4>Links da página</h4>
+            <nav>
+              <ul class="grid">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projetos</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="social-media grid">
+            <h4>Mídias sociais</h4>
+            <ul class="grid">
+              <li>
+                <a
+                  href="https://www.instagram.com/patricks.js/"
+                  target="_blank"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path
+                      fill="#f5f5f5"
+                      d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                    />
+                  </svg>
+                  Instagram
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/patrick-lsilva/"
+                  target="_blank"
+                >
+                  <svg viewBox="0 0 128 128">
+                    <path
+                      fill="#f5f5f5"
+                      d="M116 3H12a8.91 8.91 0 00-9 8.8v104.42a8.91 8.91 0 009 8.78h104a8.93 8.93 0 009-8.81V11.77A8.93 8.93 0 00116 3zM39.17 107H21.06V48.73h18.11zm-9-66.21a10.5 10.5 0 1110.49-10.5 10.5 10.5 0 01-10.54 10.48zM107 107H88.89V78.65c0-6.75-.12-15.44-9.41-15.44s-10.87 7.36-10.87 15V107H50.53V48.73h17.36v8h.24c2.42-4.58 8.32-9.41 17.13-9.41C103.6 47.28 107 59.35 107 75z"
+                    ></path>
+                  </svg>
+                  LinkedIn
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/Patrick-D-Lucas" target="_blank">
+                  <svg viewBox="0 0 128 128">
+                    <g fill="#f5f5f5">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M64 5.103c-33.347 0-60.388 27.035-60.388 60.388 0 26.682 17.303 49.317 41.297 57.303 3.017.56 4.125-1.31 4.125-2.905 0-1.44-.056-6.197-.082-11.243-16.8 3.653-20.345-7.125-20.345-7.125-2.747-6.98-6.705-8.836-6.705-8.836-5.48-3.748.413-3.67.413-3.67 6.063.425 9.257 6.223 9.257 6.223 5.386 9.23 14.127 6.562 17.573 5.02.542-3.903 2.107-6.568 3.834-8.076-13.413-1.525-27.514-6.704-27.514-29.843 0-6.593 2.36-11.98 6.223-16.21-.628-1.52-2.695-7.662.584-15.98 0 0 5.07-1.623 16.61 6.19C53.7 35 58.867 34.327 64 34.304c5.13.023 10.3.694 15.127 2.033 11.526-7.813 16.59-6.19 16.59-6.19 3.287 8.317 1.22 14.46.593 15.98 3.872 4.23 6.215 9.617 6.215 16.21 0 23.194-14.127 28.3-27.574 29.796 2.167 1.874 4.097 5.55 4.097 11.183 0 8.08-.07 14.583-.07 16.572 0 1.607 1.088 3.49 4.148 2.897 23.98-7.994 41.263-30.622 41.263-57.294C124.388 32.14 97.35 5.104 64 5.104z"
+                      ></path>
+                      <path
+                        d="M26.484 91.806c-.133.3-.605.39-1.035.185-.44-.196-.685-.605-.543-.906.13-.31.603-.395 1.04-.188.44.197.69.61.537.91zm2.446 2.729c-.287.267-.85.143-1.232-.28-.396-.42-.47-.983-.177-1.254.298-.266.844-.14 1.24.28.394.426.472.984.17 1.255zM31.312 98.012c-.37.258-.976.017-1.35-.52-.37-.538-.37-1.183.01-1.44.373-.258.97-.025 1.35.507.368.545.368 1.19-.01 1.452zm3.261 3.361c-.33.365-1.036.267-1.552-.23-.527-.487-.674-1.18-.343-1.544.336-.366 1.045-.264 1.564.23.527.486.686 1.18.333 1.543zm4.5 1.951c-.147.473-.825.688-1.51.486-.683-.207-1.13-.76-.99-1.238.14-.477.823-.7 1.512-.485.683.206 1.13.756.988 1.237zm4.943.361c.017.498-.563.91-1.28.92-.723.017-1.308-.387-1.315-.877 0-.503.568-.91 1.29-.924.717-.013 1.306.387 1.306.88zm4.598-.782c.086.485-.413.984-1.126 1.117-.7.13-1.35-.172-1.44-.653-.086-.498.422-.997 1.122-1.126.714-.123 1.354.17 1.444.663zm0 0"
+                      ></path>
+                    </g>
+                  </svg>
+                  GitHub
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="page-bg"></div>
+    <div class="animation-wrapper">
+      <div class="particle particle-1"></div>
+      <div class="particle particle-2"></div>
+      <div class="particle particle-3"></div>
+      <div class="particle particle-4"></div>
+    </div>
+  </body>
+</html>
