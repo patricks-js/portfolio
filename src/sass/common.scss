@@ -207,7 +207,8 @@ strong {
 .swiper {
   width: 100%;
   max-width: 900px;
-  height: 600px;
+  height: max-content;
+  padding-bottom: 2rem;
 }
 
 .swiper-button-next,

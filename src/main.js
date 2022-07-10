@@ -46,7 +46,7 @@ const activeLink = () => {
   const interSection1e2 = heightSections[0] / checkpoint;
   const interSection2e3 = heightSections[0] + heightSections[1] / checkpoint;
   const interSection3e4 =
-    heightSections[0] + heightSections[1] + heightSections[3] / checkpoint;
+    heightSections[0] + heightSections[1] + heightSections[2] / checkpoint;
 
   linksHeader[0].classList.add("active");
   linksHeader[1].classList.remove("active");
@@ -70,29 +70,6 @@ const activeLink = () => {
     linksHeader[1].classList.remove("active");
     linksHeader[2].classList.remove("active");
     linksHeader[3].classList.add("active");
-  }
-};
-
-// Header ShrinkHeader
-
-const shrinkHeader = () => {
-  const header = document.querySelector("#header");
-  const scrollPosition = window.scrollY;
-
-  const section = document.querySelector(".section");
-  const firstSection = section.offsetHeight;
-
-  let scrollingWindow =
-    window.pageYOffset || document.documentElement.scrollTop;
-
-  if (scrollPosition > firstSection / 3) {
-    if (scrollingWindow > lastScrollTop) {
-      header.classList.add("header-shrink");
-    } else {
-      header.classList.remove("header-shrink");
-    }
-
-    lastScrollTop = scrollingWindow <= 0 ? 0 : scrollingWindow;
   }
 };
 

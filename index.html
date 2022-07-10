@@ -204,27 +204,6 @@
               />
               <span class="description__skill">React</span>
             </div>
-            <!-- <div class="skill">
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-                alt="Icone NodeJs"
-              />
-              <span class="description__skill">NodeJs</span>
-            </div>
-            <div class="skill">
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
-                alt="Icone MongoDB"
-              />
-              <span class="description__skill">MongoDB</span>
-            </div>
-            <div class="skill">
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
-                alt="Icone PostgreSQL"
-              />
-              <span class="description__skill">PostgreSQL</span>
-            </div> -->
             <div class="skill">
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
@@ -245,11 +224,17 @@
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <div class="project">
-                    <img
-                      src="./src/assets/wireframe-beauty.png"
-                      alt=""
-                      class="responsive-design"
-                    />
+                    <picture>
+                      <source
+                        media="(min-width: 768px)"
+                        srcset="./src/assets/wireframe-doctor.png"
+                      />
+                      <img
+                        src="./src/assets/doctorcare-mobile.svg"
+                        alt=""
+                        class="responsive-design"
+                      />
+                    </picture>
                     <div class="social-media">
                       <a
                         href="https://github.com/patricks-js/originSix"
@@ -281,11 +266,17 @@
                 </div>
                 <div class="swiper-slide">
                   <div class="project">
-                    <img
-                      src="./src/assets/wireframe-doctor.png"
-                      alt=""
-                      class="responsive-design"
-                    />
+                    <picture>
+                      <source
+                        media="(min-width: 768px)"
+                        srcset="./src/assets/wireframe-beauty.png"
+                      />
+                      <img
+                        src="./src/assets/bauty-mobile.svg"
+                        alt=""
+                        class="responsive-design"
+                      />
+                    </picture>
                     <div class="social-media">
                       <a
                         href="https://github.com/patricks-js/DoctorCare"
@@ -324,15 +315,6 @@
           </div>
         </div>
       </section>
-      <div class="start-new-project container">
-        <h2>Start a project</h2>
-        <a
-          class="button"
-          target="_blank"
-          href="https://api.whatsapp.com/send?phone=+558197866395&text=Olá, gostei do seu site"
-          >Vamos lá!</a
-        >
-      </div>
     </main>
     <footer id="footer">
       <div class="container">
