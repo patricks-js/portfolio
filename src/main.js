@@ -98,7 +98,6 @@ const shrinkHeader = () => {
 
 window.addEventListener("scroll", () => {
   activeLink();
-  shrinkHeader();
 });
 
 // Swiper

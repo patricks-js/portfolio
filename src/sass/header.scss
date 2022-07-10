@@ -21,8 +21,17 @@
     justify-content: space-between;
     position: relative;
     .logo {
-      width: 100%;
-      max-width: 5.8125rem;
+      display: inline-flex;
+      align-items: center;
+      max-width: 15rem;
+      picture {
+        display: inline-flex;
+        align-items: center;
+        img {
+          object-position: 0 0.15rem;
+          width: 100%;
+        }
+      }
     }
     #nav {
       width: 100%;

@@ -7,7 +7,7 @@
     <title>Patricks JS</title>
     <link
       rel="shortcut icon"
-      href="./src/assets/logoico.ico"
+      href="./src/assets/logo-6.svg"
       type="image/x-icon"
     />
     <!-- FONTS -->
@@ -41,11 +41,26 @@
     <header id="header">
       <div class="container">
         <a href="#home" class="logo">
-          <img src="./src/assets/logo.svg" alt="Logo do meu site" />
+          <picture
+            ><source
+              media="(min-width:821px)"
+              srcset="./src/assets/logo-4.svg"
+            />
+            <source
+              media="(min-width:668px)"
+              srcset="./src/assets/logo-5.svg"
+            />
+            <source
+              media="(min-width:589px)"
+              srcset="./src/assets/logo-4.svg"
+            />
+
+            <img src="./src/assets/logo-5.svg" alt="Flowers" />
+          </picture>
         </a>
         <nav id="nav">
           <ul class="menu">
-            <li><a href="#header" class="active">Início</a></li>
+            <li><a href="#home" class="active">Início</a></li>
             <li><a href="#about">Sobre</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projetos</a></li>
