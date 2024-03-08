@@ -2,16 +2,17 @@
 
 import { ToggleTheme } from './toggle-theme'
 import { Anchor } from './anchor'
-import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import { cn } from '@/lib/utils'
 import { useTheme } from 'next-themes'
+import { BrandDark } from './icons/brand-dark'
+import { BrandLight } from './icons/brand-light'
 
 export function Header() {
   const [hasScrolled, setHasScrolled] = useState(false)
   const { resolvedTheme } = useTheme()
 
-  const theme = resolvedTheme?.split(' ')[0]
+  const theme = resolvedTheme?.split(' ')[0] === 'light'
 
   useEffect(() => {
     const handleScroll = () => {
@@ -35,14 +36,7 @@ export function Header() {
       )}
     >
       <nav className="px-4 md:px-6 py-3 max-w-[700px] mx-auto flex justify-between items-center gap-3">
-        <div>
-          <Image
-            width={36}
-            height={36}
-            alt="Brand"
-            src={`/brand/brand-${theme}.svg`}
-          />
-        </div>
+        {theme ? <BrandLight /> : <BrandDark />}
         <ul className="flex gap-6 text-sm text-ring font-medium">
           <Anchor link="projects" label="Projects" />
           <Anchor link="blog" label="Blog" />
