@@ -1,6 +1,6 @@
-import { LucideProps } from 'lucide-react'
+import { IconBaseProps } from 'react-icons'
 
-export function BrandSquareDark(props: LucideProps) {
+export function BrandSquareDark(props: IconBaseProps) {
   return (
     <svg
       width={36}

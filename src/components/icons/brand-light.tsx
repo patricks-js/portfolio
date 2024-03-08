@@ -1,6 +1,6 @@
-import { LucideProps } from 'lucide-react'
+import { IconBaseProps } from 'react-icons'
 
-export function BrandLight(props: LucideProps) {
+export function BrandLight(props: IconBaseProps) {
   return (
     <svg
       width={36}
