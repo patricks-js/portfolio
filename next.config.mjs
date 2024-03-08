@@ -5,6 +5,7 @@ const nextConfig = {
       {
         source: '/',
         destination: '/links',
+        permanent: false,
       },
     ]
   },
